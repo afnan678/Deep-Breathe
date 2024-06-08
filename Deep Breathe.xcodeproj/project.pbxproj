@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81028EF02B2C708000D364B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81028EEF2B2C708000D364B2 /* AppDelegate.swift */; };
+		81028EF22B2C708000D364B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81028EF12B2C708000D364B2 /* SceneDelegate.swift */; };
+		81028EF42B2C708000D364B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81028EF32B2C708000D364B2 /* ViewController.swift */; };
+		81028EF72B2C708000D364B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81028EF52B2C708000D364B2 /* Main.storyboard */; };
+		81028EFA2B2C708000D364B2 /* Deep_Breathe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81028EF82B2C708000D364B2 /* Deep_Breathe.xcdatamodeld */; };
+		81028EFC2B2C708200D364B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81028EFB2B2C708200D364B2 /* Assets.xcassets */; };
+		81028EFF2B2C708200D364B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81028EFD2B2C708200D364B2 /* LaunchScreen.storyboard */; };
+		81028F382B2C769700D364B2 /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81028F342B2C769700D364B2 /* DancingScript-Medium.ttf */; };
+		81028F392B2C769700D364B2 /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81028F352B2C769700D364B2 /* DancingScript-Bold.ttf */; };
+		81028F3A2B2C769700D364B2 /* DancingScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81028F362B2C769700D364B2 /* DancingScript-SemiBold.ttf */; };
+		81028F3B2B2C769700D364B2 /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81028F372B2C769700D364B2 /* DancingScript-Regular.ttf */; };
+		81028F412B2C76F500D364B2 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 81028F3C2B2C76F500D364B2 /* OFL.txt */; };
+		81028F422B2C76F500D364B2 /* PTSerif-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81028F3D2B2C76F500D364B2 /* PTSerif-BoldItalic.ttf */; };
+		81028F432B2C76F500D364B2 /* PTSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81028F3E2B2C76F500D364B2 /* PTSerif-Bold.ttf */; };
+		81028F442B2C76F500D364B2 /* PTSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81028F3F2B2C76F500D364B2 /* PTSerif-Italic.ttf */; };
+		81028F452B2C76F500D364B2 /* PTSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81028F402B2C76F500D364B2 /* PTSerif-Regular.ttf */; };
+		81028F822B2C83B800D364B2 /* MeditationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81028F812B2C83B800D364B2 /* MeditationVC.swift */; };
+		81028F842B2C83CF00D364B2 /* SleepVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81028F832B2C83CF00D364B2 /* SleepVC.swift */; };
+		81028F862B2C83E500D364B2 /* ProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81028F852B2C83E500D364B2 /* ProgressVC.swift */; };
+		81028F892B2C867D00D364B2 /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81028F882B2C867D00D364B2 /* TabbarVC.swift */; };
+		81028F8B2B2C8DED00D364B2 /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81028F8A2B2C8DED00D364B2 /* PlayVC.swift */; };
+		8154158B2B2C9A2500020CDF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154158A2B2C9A2500020CDF /* Constants.swift */; };
+		8154158F2B2C9CD100020CDF /* SleepTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154158D2B2C9CD100020CDF /* SleepTVC.swift */; };
+		815415902B2C9CD100020CDF /* SleepTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8154158E2B2C9CD100020CDF /* SleepTVC.xib */; };
+		815415922B2C9EE800020CDF /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815415912B2C9EE800020CDF /* DesignableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81028EEC2B2C708000D364B2 /* Deep Breathe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deep Breathe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81028EEF2B2C708000D364B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81028EF12B2C708000D364B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		81028EF32B2C708000D364B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81028EF62B2C708000D364B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81028EF92B2C708000D364B2 /* Deep_Breathe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Deep_Breathe.xcdatamodel; sourceTree = "<group>"; };
+		81028EFB2B2C708200D364B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81028EFE2B2C708200D364B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81028F002B2C708200D364B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81028F342B2C769700D364B2 /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Medium.ttf"; sourceTree = "<group>"; };
+		81028F352B2C769700D364B2 /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Bold.ttf"; sourceTree = "<group>"; };
+		81028F362B2C769700D364B2 /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-SemiBold.ttf"; sourceTree = "<group>"; };
+		81028F372B2C769700D364B2 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Regular.ttf"; sourceTree = "<group>"; };
+		81028F3C2B2C76F500D364B2 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		81028F3D2B2C76F500D364B2 /* PTSerif-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSerif-BoldItalic.ttf"; sourceTree = "<group>"; };
+		81028F3E2B2C76F500D364B2 /* PTSerif-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSerif-Bold.ttf"; sourceTree = "<group>"; };
+		81028F3F2B2C76F500D364B2 /* PTSerif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSerif-Italic.ttf"; sourceTree = "<group>"; };
+		81028F402B2C76F500D364B2 /* PTSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PTSerif-Regular.ttf"; sourceTree = "<group>"; };
+		81028F812B2C83B800D364B2 /* MeditationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationVC.swift; sourceTree = "<group>"; };
+		81028F832B2C83CF00D364B2 /* SleepVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepVC.swift; sourceTree = "<group>"; };
+		81028F852B2C83E500D364B2 /* ProgressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressVC.swift; sourceTree = "<group>"; };
+		81028F882B2C867D00D364B2 /* TabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
+		81028F8A2B2C8DED00D364B2 /* PlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
+		8154158A2B2C9A2500020CDF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8154158D2B2C9CD100020CDF /* SleepTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTVC.swift; sourceTree = "<group>"; };
+		8154158E2B2C9CD100020CDF /* SleepTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SleepTVC.xib; sourceTree = "<group>"; };
+		815415912B2C9EE800020CDF /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81028EE92B2C708000D364B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81028EE32B2C708000D364B2 = {
+			isa = PBXGroup;
+			children = (
+				81028EEE2B2C708000D364B2 /* Deep Breathe */,
+				81028EED2B2C708000D364B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81028EED2B2C708000D364B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81028EEC2B2C708000D364B2 /* Deep Breathe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81028EEE2B2C708000D364B2 /* Deep Breathe */ = {
+			isa = PBXGroup;
+			children = (
+				81028EEF2B2C708000D364B2 /* AppDelegate.swift */,
+				81028EF12B2C708000D364B2 /* SceneDelegate.swift */,
+				815415912B2C9EE800020CDF /* DesignableView.swift */,
+				81028F802B2C833900D364B2 /* Models */,
+				81028F7F2B2C833200D364B2 /* Views */,
+				81028F7E2B2C832900D364B2 /* Controllers */,
+				81028F062B2C73BD00D364B2 /* Fonts */,
+				81028EFB2B2C708200D364B2 /* Assets.xcassets */,
+				81028F002B2C708200D364B2 /* Info.plist */,
+				81028EF82B2C708000D364B2 /* Deep_Breathe.xcdatamodeld */,
+			);
+			path = "Deep Breathe";
+			sourceTree = "<group>";
+		};
+		81028F062B2C73BD00D364B2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				81028F072B2C73BD00D364B2 /* PT Serif */,
+				81028F112B2C73BD00D364B2 /* Dancing Script */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		81028F072B2C73BD00D364B2 /* PT Serif */ = {
+			isa = PBXGroup;
+			children = (
+				81028F3C2B2C76F500D364B2 /* OFL.txt */,
+				81028F3E2B2C76F500D364B2 /* PTSerif-Bold.ttf */,
+				81028F3D2B2C76F500D364B2 /* PTSerif-BoldItalic.ttf */,
+				81028F3F2B2C76F500D364B2 /* PTSerif-Italic.ttf */,
+				81028F402B2C76F500D364B2 /* PTSerif-Regular.ttf */,
+			);
+			path = "PT Serif";
+			sourceTree = "<group>";
+		};
+		81028F112B2C73BD00D364B2 /* Dancing Script */ = {
+			isa = PBXGroup;
+			children = (
+				81028F352B2C769700D364B2 /* DancingScript-Bold.ttf */,
+				81028F342B2C769700D364B2 /* DancingScript-Medium.ttf */,
+				81028F372B2C769700D364B2 /* DancingScript-Regular.ttf */,
+				81028F362B2C769700D364B2 /* DancingScript-SemiBold.ttf */,
+			);
+			path = "Dancing Script";
+			sourceTree = "<group>";
+		};
+		81028F7E2B2C832900D364B2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8154158C2B2C9CA500020CDF /* Nibs */,
+				81028EF32B2C708000D364B2 /* ViewController.swift */,
+				81028F812B2C83B800D364B2 /* MeditationVC.swift */,
+				81028F832B2C83CF00D364B2 /* SleepVC.swift */,
+				81028F852B2C83E500D364B2 /* ProgressVC.swift */,
+				81028F882B2C867D00D364B2 /* TabbarVC.swift */,
+				81028F8A2B2C8DED00D364B2 /* PlayVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		81028F7F2B2C833200D364B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81028EF52B2C708000D364B2 /* Main.storyboard */,
+				81028EFD2B2C708200D364B2 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81028F802B2C833900D364B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8154158A2B2C9A2500020CDF /* Constants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8154158C2B2C9CA500020CDF /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				8154158D2B2C9CD100020CDF /* SleepTVC.swift */,
+				8154158E2B2C9CD100020CDF /* SleepTVC.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81028EEB2B2C708000D364B2 /* Deep Breathe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81028F032B2C708200D364B2 /* Build configuration list for PBXNativeTarget "Deep Breathe" */;
+			buildPhases = (
+				81028EE82B2C708000D364B2 /* Sources */,
+				81028EE92B2C708000D364B2 /* Frameworks */,
+				81028EEA2B2C708000D364B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deep Breathe";
+			productName = "Deep Breathe";
+			productReference = 81028EEC2B2C708000D364B2 /* Deep Breathe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81028EE42B2C708000D364B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					81028EEB2B2C708000D364B2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 81028EE72B2C708000D364B2 /* Build configuration list for PBXProject "Deep Breathe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81028EE32B2C708000D364B2;
+			productRefGroup = 81028EED2B2C708000D364B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81028EEB2B2C708000D364B2 /* Deep Breathe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81028EEA2B2C708000D364B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81028EFF2B2C708200D364B2 /* LaunchScreen.storyboard in Resources */,
+				81028F392B2C769700D364B2 /* DancingScript-Bold.ttf in Resources */,
+				81028F382B2C769700D364B2 /* DancingScript-Medium.ttf in Resources */,
+				81028F412B2C76F500D364B2 /* OFL.txt in Resources */,
+				81028F432B2C76F500D364B2 /* PTSerif-Bold.ttf in Resources */,
+				81028F3A2B2C769700D364B2 /* DancingScript-SemiBold.ttf in Resources */,
+				81028F3B2B2C769700D364B2 /* DancingScript-Regular.ttf in Resources */,
+				81028EFC2B2C708200D364B2 /* Assets.xcassets in Resources */,
+				815415902B2C9CD100020CDF /* SleepTVC.xib in Resources */,
+				81028F452B2C76F500D364B2 /* PTSerif-Regular.ttf in Resources */,
+				81028EF72B2C708000D364B2 /* Main.storyboard in Resources */,
+				81028F442B2C76F500D364B2 /* PTSerif-Italic.ttf in Resources */,
+				81028F422B2C76F500D364B2 /* PTSerif-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81028EE82B2C708000D364B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81028F842B2C83CF00D364B2 /* SleepVC.swift in Sources */,
+				81028EF42B2C708000D364B2 /* ViewController.swift in Sources */,
+				81028F822B2C83B800D364B2 /* MeditationVC.swift in Sources */,
+				8154158F2B2C9CD100020CDF /* SleepTVC.swift in Sources */,
+				81028EFA2B2C708000D364B2 /* Deep_Breathe.xcdatamodeld in Sources */,
+				81028EF02B2C708000D364B2 /* AppDelegate.swift in Sources */,
+				8154158B2B2C9A2500020CDF /* Constants.swift in Sources */,
+				81028F862B2C83E500D364B2 /* ProgressVC.swift in Sources */,
+				815415922B2C9EE800020CDF /* DesignableView.swift in Sources */,
+				81028F892B2C867D00D364B2 /* TabbarVC.swift in Sources */,
+				81028EF22B2C708000D364B2 /* SceneDelegate.swift in Sources */,
+				81028F8B2B2C8DED00D364B2 /* PlayVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81028EF52B2C708000D364B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81028EF62B2C708000D364B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81028EFD2B2C708200D364B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81028EFE2B2C708200D364B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81028F012B2C708200D364B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81028F022B2C708200D364B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81028F042B2C708200D364B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Deep Breathe/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "malik.Deep-Breathe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81028F052B2C708200D364B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Deep Breathe/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "malik.Deep-Breathe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81028EE72B2C708000D364B2 /* Build configuration list for PBXProject "Deep Breathe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81028F012B2C708200D364B2 /* Debug */,
+				81028F022B2C708200D364B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81028F032B2C708200D364B2 /* Build configuration list for PBXNativeTarget "Deep Breathe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81028F042B2C708200D364B2 /* Debug */,
+				81028F052B2C708200D364B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		81028EF82B2C708000D364B2 /* Deep_Breathe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				81028EF92B2C708000D364B2 /* Deep_Breathe.xcdatamodel */,
+			);
+			currentVersion = 81028EF92B2C708000D364B2 /* Deep_Breathe.xcdatamodel */;
+			path = Deep_Breathe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 81028EE42B2C708000D364B2 /* Project object */;
+}
